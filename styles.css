@@ -1,0 +1,9 @@
+p {
+    font-family: monospace;
+}
+img {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    border: 20px red dotted;
+}
