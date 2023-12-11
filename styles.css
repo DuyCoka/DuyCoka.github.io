@@ -1,9 +1,35 @@
-p {
-    font-family: monospace;
+.canvas-container {
+    height: 600px;
 }
-img {
-    width: 250px;
-    height: 250px;
-    margin: 25px;
-    border: 20px red dotted;
+#images-header {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+body {
+    background-image:url("images/motif-low.png"); ;
+}
+.widget-instance {
+    height: 140px ;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.widget-instance > section {
+    margin: 100px;
+    text-align: center;
+}
+.widget-instance > section > a {
+    font-style: italic;
+    color: #b4a895;
+    text-decoration: none;
+}
+.widget-instance > section img {
+    height: 60px;
+}
+.promotion-widget {
+    height: 400px ;
+    background-image: url(images/promotion.webp), url(images/promotion_01.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
 }
